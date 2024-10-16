@@ -1,0 +1,29 @@
+.title {
+  color: blue;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.profilePic {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.bio {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+}

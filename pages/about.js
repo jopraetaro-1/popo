@@ -19,6 +19,9 @@ export default function About() {
           className={styles.profilePic}
         />
         <p className={styles.bio}>KMITL Rai Second Year</p>
+        <p className={styles.description}>
+          My name is Prae. I love vintage shirts, and that’s why I created this website for everyone who shares the same passion.
+        </p>
       </div>
     </>
   );

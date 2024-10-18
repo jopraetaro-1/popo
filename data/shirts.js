@@ -6,7 +6,7 @@ const shirts = [
     category: "T-shirts",
     stock: 10,
     size: "s",
-    description: "Unique graphic t-shirt featuring a guitarist.",
+    description: "Teacher can do anything.",
     thumbnail: "/shirtspics/shirt1.jpg" // Ensure this path is correct
   },
   {
@@ -16,7 +16,7 @@ const shirts = [
     category: "T-shirts",
     stock: 15,
     size: "m",
-    description: "Cool graphic t-shirt featuring a mountain design.",
+    description: "Cow t-shirt.",
     thumbnail: "/shirtspics/shirt2.jpg"
   },
   {
@@ -26,7 +26,7 @@ const shirts = [
     category: "T-shirts",
     stock: 15,
     size: "xl",
-    description: "Cool graphic t-shirt featuring a mountain design.",
+    description: "Black student union.",
     thumbnail: "/shirtspics/shirt3.jpg"
   },
   {
@@ -36,7 +36,7 @@ const shirts = [
     category: "T-shirts",
     stock: 15,
     size: "L",
-    description: "Cool graphic t-shirt featuring a mountain design.",
+    description: "Tradition football 2006.",
     thumbnail: "/shirtspics/shirt4.jpg"
   },
   {
@@ -46,7 +46,7 @@ const shirts = [
     category: "T-shirts",
     stock: 15,
     size: "s",
-    description: "Cool graphic t-shirt featuring a mountain design.",
+    description: "Motorcycle.",
     thumbnail: "/shirtspics/shirt5.jpg"
   },
   {
@@ -56,7 +56,7 @@ const shirts = [
     category: "T-shirts",
     stock: 15,
     size: "m",
-    description: "Cool graphic t-shirt featuring a mountain design.",
+    description: "Spiderman Richmond college.",
     thumbnail: "/shirtspics/shirt6.jpg"
   },
   {
@@ -66,7 +66,7 @@ const shirts = [
     category: "T-shirts",
     stock: 15,
     size: "xl",
-    description: "Cool graphic t-shirt featuring a mountain design.",
+    description: "Rapper.",
     thumbnail: "/shirtspics/shirt7.jpg"
   },
   {
@@ -76,17 +76,17 @@ const shirts = [
     category: "T-shirts",
     stock: 15,
     size: "l",
-    description: "Cool graphic t-shirt featuring a mountain design.",
+    description: "Fedex.",
     thumbnail: "/shirtspics/shirt8.jpg"
   },
   {
     id: 9,
-    title: "Graphic T-shirt 9",
+    title: "polo 9",
     price: 30,
     category: "polo",
     stock: 15,
     size: "m",
-    description: "Cool graphic t-shirt featuring a mountain design.",
+    description: "Nocherten Basketball.",
     thumbnail: "/shirtspics/shirt9.jpg"
   },
   {
@@ -96,7 +96,7 @@ const shirts = [
     category: "T-shirts",
     stock: 15,
     size: "l",
-    description: "Cool graphic t-shirt featuring a mountain design.",
+    description: "Nascar Winston cub series.",
     thumbnail: "/shirtspics/shirt10.jpg"
   }
   // Add more shirts as needed

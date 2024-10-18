@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\NextTutorial\prae\env"
+VIRTUAL_ENV="C:\Users\ASUS\shoppee-master\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

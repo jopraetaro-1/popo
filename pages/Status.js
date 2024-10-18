@@ -2,13 +2,13 @@ import { useRouter } from 'next/router';
 
 const Status = () => {
   const router = useRouter();
-  const { status } = router.query; // Get status from query parameters
+  const { message } = router.query; // Get message from query parameters
 
   return (
     <div>
       <h1>Payment Status</h1>
-      {status === 'pending' ? (
-        <p>Your payment is pending. Please wait for confirmation.</p>
+      {message === 'thanks' ? (
+        <p>Thank you for purchasing our shirts!</p>
       ) : (
         <p>Invalid payment status.</p>
       )}

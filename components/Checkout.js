@@ -35,8 +35,8 @@ const Checkout = () => {
 
   const handleConfirmPayment = () => {
     // Simulate a real payment process here (or integrate with an actual API)
-    // Redirect to the status page with payment status set to 'pending'
-    router.push('/status?status=pending');
+    // Redirect to the status page with a custom message
+    router.push('/status?message=thanks');
   };
 
   return (

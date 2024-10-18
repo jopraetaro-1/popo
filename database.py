@@ -1,4 +1,4 @@
-from databases import Database
+from database import Database  # Ensure you're importing from the correct package
 
 POSTGRES_USER = "postgres"
 POSTGRES_PASSWORD = "temp"
@@ -20,7 +20,7 @@ async def insert_customer(first_name: str, last_name: str, email: str, password:
     query = """
     INSERT INTO customers (first_name, last_name, email, password, phone_number)
     VALUES (:first_name, :last_name, :email, :password, :phone_number)
-    RETURNING customer_id, first_name, last_name, email, password, phone_number, created_at  -- Fixed: added missing comma
+    RETURNING customer_id, first_name, last_name, email, password, phone_number, created_at
     """
     values = {
         "first_name": first_name,
@@ -42,7 +42,7 @@ async def update_customer(customer_id: int, first_name: str, last_name: str, ema
     UPDATE customers
     SET first_name = :first_name, last_name = :last_name, email = :email, password = :password, phone_number = :phone_number
     WHERE customer_id = :customer_id
-    RETURNING customer_id, first_name, last_name, email, password, phone_number, created_at  -- Fixed: added missing comma
+    RETURNING customer_id, first_name, last_name, email, password, phone_number, created_at
     """
     values = {
         "customer_id": customer_id,

@@ -1,4 +1,4 @@
-from databases import Database
+from db import Database
 
 
 POSTGRES_USER = "postgres"

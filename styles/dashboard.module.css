@@ -1,0 +1,32 @@
+/* dashboard.module.css */
+.review-box {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .feedback {
+    margin-top: 20px;
+    color: green;
+  }
+  
